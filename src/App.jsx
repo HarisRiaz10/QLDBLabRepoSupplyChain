@@ -21,7 +21,6 @@ function App() {
   const [selectedBatch, setSelectedBatch] = useState(null);
   const [modalIsOpen, setIsOpen] = useState(false);
   const [deleteModalIsOpen,setDeleteModal] = useState(false);
-  const [createModalIsOpen,setCreateModal] = useState(false);
   
   const createBatch = async () => {
     
